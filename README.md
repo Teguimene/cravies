@@ -1,6 +1,6 @@
 # Lancement du projet
 
-Clonez le projet [Create React App](https://github.com/facebook/create-react-app).
+Clonez le projet [git clone](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
