@@ -24,7 +24,7 @@ Ceci a été fait tout simplement dans le but de faciliter la réutilisabilité 
 
 5. Un dossier pages/ pour contenir les differentes pages
 
-Cette structuration est faite dans le but de rester organiser d=et de facilement maintenir notre tout au long du travail.
+Cette structuration est faite dans le but de rester organiser et de facilement maintenir notre tout au long du travail.
 
 # Dépendences utilisés
 Comme dépendences, nous avons utilisés:
