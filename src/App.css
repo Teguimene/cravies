@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+/************************* Home page css *************************/
+.wrapper {
+  /* padding: 16px 8px !important; */
+}
+
+/* Navbar */
+.navbar {
+  padding: 16px 40px !important;
+  gap: 40px;
+}
+
+.nav-items {
+  gap: 32px
+}
+
+.custom-placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2E2E2E;
+}
+
+
