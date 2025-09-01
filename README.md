@@ -1,70 +1,38 @@
 # Lancement du projet
 
-Clonez le projet [git clone](https://github.com/facebook/create-react-app).
+1. Clonez le projet [git clone git@gitlab.com:Teguimene/cravies.git](git@gitlab.com:Teguimene/cravies.git).
+2. Une fois le projet cloné, rassurez-vous d'être dans le répertoire racine `cd cravis`
+3. Installez les dépendences en lançant la commande `npm install`
+4. Vous pouvez désormais lancer le projet en exécutant `npm start` sur l'invite de commande
+5. Ouvrez [http://localhost:3000](http://localhost:3000) pour le rendu.
 
-## Available Scripts
+# Structuration du projet
+Le projet est structuré comme suit:
+1. Dans le dossier public/, nous décidons d'ajouter un dossier assets qui contiendra les différentes images à utiliser dans le site
+2. Le dossier src/ est subdivisé en huit parties dont nous avons utilisés cinq pour effectuer ce travail:
 
-In the project directory, you can run:
+## Structuration du dossier src/
+1. Un dossier component/ qui sera utilisé pour contenir les différents éléments réutilisables. Pour réaliser cette tâche, nous
+avons mis en place neuf components parmis lesquelles le component Button, CustomInput, FAQItem, IngredientCard, Pack, PackTitle, Subscription, Testimonial et SpoilerSecComponent.
+Ceci a été fait tout simplement dans le but de faciliter la réutilisabilité de ceux-ci qi se voyaient répétitifs dans les differentes pages.
 
-### `npm start`
+2. Un dossier constants/ qui contient les differentes variables utilisables lors du travail. Nous parlons ici principalement des couleurs et du style css.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Un dossier datas/ pour contenir les fake datas ou liste d'objets à maper sur les differentes pages pour affichage.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Un dossier layouts/ qui contient les differents layouts (header, navbar, footer, etc)
 
-### `npm test`
+5. Un dossier pages/ pour contenir les differentes pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Cette structuration est faite dans le but de rester organiser d=et de facilement maintenir notre tout au long du travail.
 
-### `npm run build`
+# Dépendences utilisés
+Comme dépendences, nous avons utilisés:
+1. `react-bootstrap` pour faciliter certaines combinaisons css afin de ganer en temps bien que dans le travail fournit c'est en grande partie du css pure.
+2. `react-responsive` qui nou aide à facilement manipuler notre aspect responsive
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Durées d'implémentation
+1. L'implémentation de la page HomePage a pris environs 6h de temps (Menu mobile absent)
+2. L'implémentation de la page PDP à son état actuel a pris environs 8h de temps
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Rédigé par Furel De Consol TEGUIMENE YENDJI
